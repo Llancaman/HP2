@@ -23,7 +23,7 @@ public class PrivacyModel : PageModel
        //Instanciamos el Form, y cuando llamamos a la pagina, le asignamos estos valores al objeto que creamos
         Data = new Form();
         Data.Mail = parametro;
-        Data.Password = "1234";
+        Data.Password = "12345";
     }
 
     public IActionResult OnPost(){
